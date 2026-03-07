@@ -41,7 +41,7 @@ Modern Navigation: Custom-built overlay Navbar with scroll-triggered visibility.
 
  Zero Layout Shift: Carefully managed GSAP animations to prevent CLS.
 
-** 🚀 Getting Started**
+**🚀 Getting Started**
 
     Clone the repository:
 
