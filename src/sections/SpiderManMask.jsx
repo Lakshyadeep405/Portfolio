@@ -230,7 +230,7 @@ const SpiderManMask = () => {
             maskImage: verticalScannerMask,
             WebkitMaskRepeat: "no-repeat",
             maskRepeat: "no-repeat",
-            // 👇 ثبتنا مكان الظهور المبدئي على اليمين برضه
+      
             WebkitMaskPosition: idleMaskPosition,
             maskPosition: idleMaskPosition,
             opacity: 0,
