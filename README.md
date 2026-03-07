@@ -1,96 +1,72 @@
-# 🌐 3D Awwwards-Level Developer Portfolio
+<img width="1891" height="914" alt="image" src="https://github.com/user-attachments/assets/6639e051-90b6-45e7-93e6-fb806e334fb6" />Modern Portfolio | Frontend Developer
+A high-performance, visually stunning personal portfolio built with React.js, Vite, and GSAP. This portfolio isn't just a showcase of projects; it's a demonstration of technical optimization, smooth user experience, and clean code architecture.
 
-### Built with React, GSAP, Three.js, TailwindCSS
+<img width="1891" height="914" alt="image" src="https://github.com/user-attachments/assets/3dbbeb50-66b2-4154-9581-f1844e403363" />
+<img width="1899" height="912" alt="image" src="https://github.com/user-attachments/assets/ffbf4eda-5d7b-443f-83a0-b9d7865cd5da" />
+<img width="1905" height="915" alt="image" src="https://github.com/user-attachments/assets/6825e4e6-36aa-4ef1-a853-b82b893fe6dc" />
 
-This is a fully animated, interactive, 3D developer portfolio designed to **impress clients, recruiters, and hiring managers**. It's more than a portfolio—it's a web experience built with production-level code, scroll-based animations, and real-world best practices.
 
-> ⚡ Inspired by Awwwards-level sites — built with React (Vite), TailwindCSS, GSAP, React Three Fiber, and Drei.
+🛠️ Tech Stack
+Framework: React.js (Vite)
 
-<br/>
-<div>
-  <img src="https://github.com/user-attachments/assets/4eaf9399-fd02-4a90-83f7-2b5a361bc032" alt="Hero" style="border-radius: 8px;"/>
-  <div style="display: flex; justify-content: space-between; margin: 20px 0;">
-    <img src="https://github.com/user-attachments/assets/155bf742-b24f-4119-89f4-87e6d88c8f53" alt="Works" style="width: 32%; border-radius: 8px;"/>
-    <img src="https://github.com/user-attachments/assets/f22b9749-85ed-434f-a5f6-df1f8e221103" alt="ContactSummary" style="width: 32%; border-radius: 8px;"/>
-    <img src="https://github.com/user-attachments/assets/3e473322-b96a-433b-aec5-ece9bab25795" alt="Contact" style="width: 32%; border-radius: 8px;"/>
-  </div>
-</div>
-<br/>
+Animations: GSAP (GreenSock Animation Platform) & ScrollTrigger
 
-> 📺 [Watch Full YouTube Walkthrough](https://youtu.be/i0229UsdBwc)
----
+Styling: Tailwind CSS
 
-## 🚀 Tech Stack
+Routing & Scroll: React Scroll
 
-| Technology       | Description                             |
-| ---------------- | --------------------------------------- |
-| **React (Vite)** | Fast dev server and production bundling |
-| **Tailwind CSS** | Utility-first styling for components    |
-| **GSAP**         | Scroll-based animation and motion logic |
-| **Three.js**     | 3D scenes powered by React Three Fiber  |
-| **Drei**         | Useful helpers for 3D rendering         |
+Icons: Iconify
 
----
+🌟 Key Features
+Extreme Performance: Optimized for speed, achieving near-perfect Lighthouse scores.
 
-## 📁 Features
+Advanced Animations: Smooth, buttery transitions and interactive hover effects using GSAP.
 
-- 🔥 3D Hero Section with animated planet and golden ring
-- 🧩 Smooth slide-in Navbar with staggered link animations
-- 🎯 Scroll-triggered Service Summary with horizontal word motion
-- 🖼️ Works section with hover overlays and interactive previews
-- ✍️ About section with clip-path image reveal + typewriter text
-- 🏁 Marquee-based Contact Summary and CTA
-- 💼 Fully responsive and accessible on all screen sizes
+Responsive Design: Fully fluid layout that works flawlessly from 4K monitors to mobile screens.
 
----
+Project Showcase: A dynamic "Works" section featuring 6 diverse projects, from Shopify stores to complex CRUD systems.
 
-## 📦 Setup & Installation
+Modern Navigation: Custom-built overlay Navbar with scroll-triggered visibility.
 
-```bash
-git clone https://github.com/Ali-Sanati/awwwards-portfolio.git
-cd awwwards-portfolio
-npm install
-npm run dev
-```
+Project                  Tech Stack                             Key Highlight 
+Baga               StoreShopify, Liquid, Tailwind       Real-world freelance E-commerce store.
+Omnibuy            Next.js, Tailwind CSS                Complex Mega-Menu & seamless navigation.
+Gaming Hub         React, Vite, Lighthouse              98% Performance score on Lighthouse.
+Social App         React, REST APIs                     Dynamic feed and User Auth logic.
+Campus Control     JS, Bootstrap, CRUD                  Full management system with role-based access.
+Games Reviews      JS (OOP), Fetch API                  Data-driven app using Object-Oriented Programming.
+⚡Performance Optimization
+ I focused heavily on the "Critical Rendering Path" to ensure the best user experience:
 
-> Open http://localhost:5173 in your browser.
+ Asset Optimization: Compressed images and used modern formats.
 
----
+ Code Splitting: Efficient loading of components.
 
-## 🛠️ Customization Tips
+ Zero Layout Shift: Carefully managed GSAP animations to prevent CLS.
 
-- Change text, images, and links in /constants/index.js
+ 🚀 Getting Started
+    Clone the repository:
 
-- Update 3D models and scene in Hero.jsx
+    Bash
+    git clone https://github.com/MohamedxFawzi/Portfolio.git
+    Install dependencies:
 
-- Add your own contact info in Contact.jsx
+    Bash
+    npm install
+    Run the development server:
 
-- Adjust colors, fonts, and layout via tailwind.config.js
+    Bash
+    npm run dev
+    Build for production:
 
----
+    Bash
+    npm run build
+    
+📨 Contact Me
+Email: mohamedfawzeix@gmail.com
 
-## 🔗 Assets
+LinkedIn: Mohamed Fawzi
 
-Assets used in the project can be found [here](https://github.com/user-attachments/files/19820923/public.zip)
+GitHub: @MohamedxFawzi
 
----
-
-## 📣 Like the project?
-
-If this helped you build or inspire your own site:
-
-- ⭐ Star this repo
-
-- 📺 [Watch the full walkthrough on YouTube](https://youtu.be/i0229UsdBwc)
-
-- 📬 [Connect on LinkedIn](https://www.linkedin.com/in/ali-sanati)
-
-- 📷 [Follow me on Instagram](https://www.instagram.com/ali.sanatidev/reels/)
-
----
-
-## 🤝 Let’s Build Together
-
-Drop a comment on the video or open an issue with your idea!
-
-> 📩 Like, subscribe, and let me know what kind of project you want to build together!
+⭐️ If you find this project helpful, don't forget to give it a star!
