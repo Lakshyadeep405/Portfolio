@@ -9,7 +9,7 @@ import Works from "./sections/Works";
 import ContactSummary from "./sections/ContactSummary";
 import Contact from "./sections/Contact";
 import { useProgress } from "@react-three/drei";
-import SpiderManMask from "./sections/SpiderManMask";
+import DeadpoolMask from "./sections/DeadpoolMask";
 
 const App = () => {
   const { progress } = useProgress();
@@ -48,7 +48,7 @@ const App = () => {
       >
         <Navbar />
         <div className="sticky top-0 h-screen w-full z-0">
-          <SpiderManMask />
+          <DeadpoolMask />
         </div>
         <div className="relative z-10 bg-white rounded-t-[40px] shadow-[0_-20px_50px_rgba(0,0,0,0.5)] flex flex-col">
           <Hero />

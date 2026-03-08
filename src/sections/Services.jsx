@@ -5,9 +5,9 @@ import { useMediaQuery } from "react-responsive";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 const Services = () => {
-  const text = `I BUILD SCALABLE,
-  BILINGUAL WEB APPLICATIONS WITH 
-  LIGHTNING-FAST PERFORMANCE AND IMMERSIVE UI/UX.`;
+  const text = `I BUILD PRACTICAL,
+  AI-POWERED WEB APPLICATIONS THAT HELP 
+  REAL BUSINESSES GROW.`;
   const serviceRefs = useRef([]);
   const isDesktop = useMediaQuery({ minWidth: "48rem" }); //768px
   useGSAP(() => {

@@ -3,14 +3,14 @@ import AnimatedHeaderSection from "../components/AnimatedHeaderSection";
 import { AnimatedTextLines } from "../components/AnimatedTextLines";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import mohamedfawzi from "../../public/images/me.jpeg"
+
 const About = () => {
   const text = `Passionate about clean architecture
     I build scalable, high-performance solutions
     from prototype to production`;
-  const aboutText = `I am Mohamed Fawzi, a motivated web developer specializing in Theme Building and designing appealing user interfaces (UI/UX).
-I have a strong passion for creating interactive websites that come alive with smooth animation, and I am always keen to learn and apply new animation techniques to elevate the user experience.
-Currently, I am actively building my expertise in the modern frontend landscape by mastering React.js for developing scalable web applications, and I use package management systems like GPM for efficient project workflow.`;
+  const aboutText = `I am Lakshyadeep a web developer and founder with a passion for building things that actually matter.
+I specialize in crafting visually compelling, interactive web experiences with smooth animations and intuitive UI/UX. Beyond just writing code, I'm an entrepreneur actively running Code Udaan — an initiative training 50 beginner students to become full-stack AI developers — which means I don't just build for clients, I build to teach, scale, and create impact.
+My frontend stack revolves around React.js and Next.js, and I'm constantly leveling up from mastering modern animation techniques with GSAP and Framer Motion to optimizing performance for real world production apps. I bring the same energy to every project: whether it's a local business's first website or a platform designed to grow.`;
   const imgRef = useRef(null);
   useGSAP(() => {
     gsap.to("#about", {
@@ -47,8 +47,8 @@ Currently, I am actively building my expertise in the modern frontend landscape 
       <div className="flex flex-col items-center justify-between gap-16 px-10 pb-16 text-xl font-light tracking-wide lg:flex-row md:text-2xl lg:text-3xl text-white/60">
         <img
           ref={imgRef}
-          src={mohamedfawzi}
-          alt="mohamed fawzi"
+          src="/images/me.jpeg"
+          alt="Lakshyadeep"
           className="w-md rounded-3xl"
         />
         <AnimatedTextLines text={aboutText} className={"w-full"} />

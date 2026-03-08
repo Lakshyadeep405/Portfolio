@@ -166,10 +166,10 @@ const Works = () => {
             </div>
           </a>
         ))}
-        {/* desktop Flaoting preview image */}
+        {/* desktop Floating preview image */}
         <div
           ref={previewRef}
-          className="fixed -top-2/6 left-0 z-50 overflow-hidden border-8 border-black pointer-events-none w-[960px] md:block hidden opacity-0"
+          className="fixed top-0 left-0 z-50 overflow-hidden pointer-events-none w-[450px] aspect-video rounded-xl shadow-2xl border border-white/10 bg-black/50 backdrop-blur-sm md:block hidden opacity-0"
         >
           {currentIndex !== null && (
             <img

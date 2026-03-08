@@ -1,7 +1,7 @@
 import { useGSAP } from "@gsap/react";
 import AnimatedHeaderSection from "../components/AnimatedHeaderSection";
 import Marquee from "../components/Marquee";
-import { socials } from "../constants";
+import { socialMedia } from "../constants";
 import gsap from "gsap";
 
 const Contact = () => {
@@ -46,21 +46,21 @@ const Contact = () => {
               <h2>E-mail</h2>
               <div className="w-full h-px my-2 bg-white/30" />
               <p className="text-xl tracking-wider lowercase md:text-2xl lg:text-3xl">
-                mohamedfawzeix@gmail.com
+                lakshyadeep405@gmail.com
               </p>
             </div>
             <div className="social-link">
               <h2>Phone</h2>
               <div className="w-full h-px my-2 bg-white/30" />
               <p className="text-xl lowercase md:text-2xl lg:text-3xl">
-                +20 01066587947
+                +91 9835508134
               </p>
             </div>
             <div className="social-link">
               <h2>Social Media</h2>
               <div className="w-full h-px my-2 bg-white/30" />
               <div className="flex flex-wrap gap-2">
-                {socials.map((social, index) => (
+                {socialMedia.map((social, index) => (
                   <a
                     key={index}
                     href={social.href}
