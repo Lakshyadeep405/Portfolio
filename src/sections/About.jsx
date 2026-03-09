@@ -44,12 +44,12 @@ My frontend stack revolves around React.js and Next.js, and I'm constantly level
         textColor={"text-white"}
         withScrollTrigger={true}
       />
-      <div className="flex flex-col items-center justify-between gap-16 px-10 pb-16 text-xl font-light tracking-wide lg:flex-row md:text-2xl lg:text-3xl text-white/60">
+      <div className="flex flex-col items-center justify-between gap-16 px-5 pb-16 text-xl font-light tracking-wide lg:flex-row md:px-10 md:text-2xl lg:text-3xl text-white/60">
         <img
           ref={imgRef}
           src="/images/me.jpeg"
           alt="Lakshyadeep"
-          className="w-md rounded-3xl"
+          className="max-w-md w-full rounded-3xl"
         />
         <AnimatedTextLines text={aboutText} className={"w-full"} />
       </div>

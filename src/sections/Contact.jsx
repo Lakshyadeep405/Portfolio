@@ -40,12 +40,12 @@ const Contact = () => {
           textColor={"text-white"}
           withScrollTrigger={true}
         />
-        <div className="flex px-10 font-light text-white uppercase lg:text-[32px] text-[26px] leading-none mb-10">
+        <div className="flex font-light text-white uppercase px-5 md:px-10 lg:text-[32px] text-[26px] leading-none mb-10">
           <div className="flex flex-col w-full gap-10">
             <div className="social-link">
               <h2>E-mail</h2>
               <div className="w-full h-px my-2 bg-white/30" />
-              <p className="text-xl tracking-wider lowercase md:text-2xl lg:text-3xl">
+              <p className="text-xl tracking-wider lowercase break-all md:text-2xl lg:text-3xl">
                 lakshyadeep405@gmail.com
               </p>
             </div>
